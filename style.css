@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(115deg, paleturquoise 40%, lightblue 60%);
+    margin: 0;
+    padding: 20px;
+    color:#2d3748;
+    min-height: 100vh;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.weather-form, .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background: pink;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color:purple;
+    margin-top: 0;
+    border-bottom: 3px solid antiquewhite;
+    padding-bottom: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    background: antiquewhite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+background-color: plum;
+transform: translateY(4px);
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.event-container {
+    min-height: 200px;
+}
+
+.event-item {
+    background: antiquewhite;
+    border-left: 5px solid purple;;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.event-item h3 { margin: 0 0 5px 0; }
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #feb2b2;
+    color: purple;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 0;
+}
+
+.demo-section {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.key-box {
+    background: #f7fafc;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+}
